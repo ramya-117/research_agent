@@ -1,0 +1,24 @@
+flask
+langgraph
+langchain-openai
+python-docx
+requests
+gunicorn
+```
+
+---
+
+### 3. ❌ NO — You Don't Need `.env` file
+`.env` is only for running locally on your computer. On Hugging Face, you use **Secrets** instead — same thing, but safer.
+
+---
+
+## 🗂️ Final Files You Need
+```
+your-project/
+├── app.py
+├── agent.py
+├── requirements.txt
+├── Dockerfile
+└── templates/
+    └── index.html
