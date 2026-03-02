@@ -1,8 +1,3 @@
-type requirements.txt
-```
-
-Should show **exactly this, nothing else:**
-```
 flask
 langgraph
 langchain-openai
